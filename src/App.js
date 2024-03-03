@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Web3 from "web3";
 import ContractABI from "./ContractABI.json";
 import "./App.css";
+import Navbar from "./components/Navbar";
 
 function App() {
 
@@ -33,6 +34,7 @@ function App() {
   
   return (
     <div className="App">
+      <Navbar></Navbar>
       <header className="App-header">
         <h1>Event Organizer App</h1>
         <form onSubmit={creatEvent}>

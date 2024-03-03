@@ -1,5 +1,30 @@
+*{margin:0;padding:0;}
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  background: #4066fa;
+  padding: 10px 16px;
+  margin-bottom: 16px;
+}
+.navbar-menu{
+  display: flex;
+  list-style-type: none;
+  gap: 30px;
+  margin: 0;
+  align-items: center;
+
+}
+.navbar-logo{
+  color: white;
+  font-size: 20px;
+}
+.navbar-menu li a{
+  text-decoration: none;
+  color: white;
+}
 .App {
   text-align: center;
+
 }
 
 .App-logo {
